@@ -7,7 +7,7 @@ random
 ## TEAM Resource Rascals
 
 - Erica CSS  
-- Yvonne - HTML
+- Yvonne - HTML, looking for 4 resources to link on HTML
 - Austin - JS
 
 # Ideas
@@ -21,7 +21,7 @@ Use "Google Search" for what we've learned in class from HTML/CSS/JS/JQUERY
 
 ## Resourses
 
-
+- 
 
 
 
