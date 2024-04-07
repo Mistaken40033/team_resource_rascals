@@ -6,13 +6,16 @@ random
 
 ## TEAM Resource Rascals
 
--Erica CSS  
--Yvonne - HTML
+- Erica CSS  
+- Yvonne - HTML
 - Austin - JS
 
 # Ideas
 
 Use "Google Search" for what we've learned in class from HTML/CSS/JS/JQUERY
+
+- Click on link will take us to resources to look at for (CSS, HTML, ETC.)
+- Multi Resourse link
 
 ## Resourses
 
