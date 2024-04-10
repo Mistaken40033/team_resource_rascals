@@ -8,7 +8,9 @@ random
 
 - Erica CSS  
 - Yvonne - HTML, looking for 4 resources to link on HTML
-- Austin and TJ - JS
+- Austin - API
+- TJ - Data Flow
+- Ethan - Helper Everywhere "Will Solve it all"
 
 
 # Ideas
@@ -20,7 +22,7 @@ Use "Google Search" for what we've learned in class from HTML/CSS/JS/JQUERY
 
 - editing our website ![alt text](image.png)
 
-## Resourses
+## Resources
 
 - 
 
