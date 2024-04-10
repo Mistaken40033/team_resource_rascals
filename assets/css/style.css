@@ -59,9 +59,9 @@ li{
     display: inline-block;
     width: 60px;
     height: 34px;
-    background-color: #be2323;
+    background-color: #7028dd;
+    background-image: url(https://file.loading.io/resources/icon/h45d9s.svg?v=1);
     border-radius: 34px;
-    transition: background-color 0.3s;
   }
   
   /* Style the slider when it's in the "on" state */
@@ -72,21 +72,26 @@ li{
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 50%;
+    background-color: rgba(132, 129, 129, 0.573);
+    background-image: url(https://file.loading.io/resources/icon/h45d9s.svg?v=1);
+    border-radius: 60%;
     transition: transform 0.3s;
   }
   
   /* Change background color when checkbox is checked */
   .toggle-switch input:checked + .slider {
-    /* background-color: #f4f3f3; */
+    background-color: #ffffff;
     background-position: left;
-    background-size: cover;
+    background-size:50%;
     background-repeat: no-repeat;
-    background-image: url(https://seeklogo.com/images/M/moon-logo-869D40C241-seeklogo.com.png);
+    background-image: url(https://cdn.iconscout.com/icon/free/png-512/free-sun-bright-rays-sunny-weather-33960.png?f=webp&w=512);
   }
   
   /* Move the slider when checkbox is checked */
   .toggle-switch input:checked + .slider:before {
     transform: translateX(26px);
+  }
+
+  #span.slider{
+    background-image: url(https://file.loading.io/resources/icon/h45d9s.svg?v=1);
   }
