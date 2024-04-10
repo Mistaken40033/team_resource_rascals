@@ -1,14 +1,20 @@
-# scratch
-random
+# Resource Rascals
 
-## I enjoy JavaScript because it utilizes both Functional programming and Object-oriented programming.
-
-
-## TEAM Resource Rascals
-
+## Team
+```
 - Erica CSS  
 - Yvonne - HTML, looking for 4 resources to link on HTML
 - Austin - JS
+-TJ
+
+```
+## User Story
+
+AS A web developer
+
+I WANT to have a place to access resources
+
+SO THAT I can conveniently access information
 
 # Ideas
 
@@ -21,7 +27,7 @@ Use "Google Search" for what we've learned in class from HTML/CSS/JS/JQUERY
 
 ## Resourses
 
-- 
+- https://www.googleapis.com/customsearch/v1?key=AIzaSyAYffbKfb5DUxujhzHl7enrwiY5hQvMeE8&cx=b7cf49646661a440c&q=css
 
 
 
