@@ -49,8 +49,8 @@ li{
     padding: 0.5em;
 }
 #nav, #footer{
-    background-color: rgba(250, 225, 3, 096);
-    box-shadow: 25px 15px 15px rgba(248, 245, 245, 0.588);
+    background-color: rgba(132, 172, 233, 0.579);
+    box-shadow: inset 25px 15px 15px rgba(248, 245, 245, 0.588);
     border-radius: 80%;
     text-align: center;
     padding: 0.5em 0;}
@@ -58,8 +58,8 @@ li{
 #feature, .article {
     height: 10em;
     margin-bottom: 1em;
-    background-color: rgba(171, 63, 63, 0.585);
-    box-shadow: 25px 5px 15px rgba(216, 224, 9, 0.588);
+    background-color: rgba(63, 97, 171, 0.506);
+    box-shadow: inset 20px 18px 20px 20px rgba(213, 22, 124, 0.599);
     
 }
 
