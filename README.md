@@ -15,6 +15,10 @@ AS A web developer
 I WANT to have a place to access resources
 
 SO THAT I can conveniently access information
+=======
+- Austin - API
+- TJ - Data Flow
+- Ethan - Helper Everywhere "Will Solve it all"
 
 # Ideas
 
@@ -25,7 +29,7 @@ Use "Google Search" for what we've learned in class from HTML/CSS/JS/JQUERY
 
 - Editing our website ![alt text](image.png)
 
-## Resourses
+## Resources
 
 - https://www.googleapis.com/customsearch/v1?key=AIzaSyAYffbKfb5DUxujhzHl7enrwiY5hQvMeE8&cx=b7cf49646661a440c&q=css
 
