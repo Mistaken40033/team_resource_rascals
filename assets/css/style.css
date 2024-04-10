@@ -20,7 +20,10 @@ div{
 #content {
     overflow: auto;
 }
-#nav, #feature, #footer {
+#feature{
+    margin: 10%;
+}
+#nav, #footer {
     margin: 1%;
 }
 .column1, .column2, .column3 {
@@ -92,6 +95,8 @@ li{
     transform: translateX(26px);
   }
 
-  #span.slider{
-    background-image: url(https://file.loading.io/resources/icon/h45d9s.svg?v=1);
-  }
+  .dark-mode{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    background-image: url(https://i.pinimg.com/564x/97/c3/ec/97c3ec46efeb14d10e003491952a0741.jpg);
+}
