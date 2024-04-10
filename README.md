@@ -8,7 +8,8 @@ random
 
 - Erica CSS  
 - Yvonne - HTML, looking for 4 resources to link on HTML
-- Austin - JS
+- Austin and TJ - JS
+
 
 # Ideas
 
