@@ -32,16 +32,18 @@ div{
 #content {
     overflow: auto;
 }
-#feature{
+/* #feature{
     margin: 10%;
-}
+} */
 /* #nav, #footer {
     margin: 1%;
 } */
 .column1, .column2, .column3 {
     width: 10%;
     float: left;
-    margin: 0%;}
+    margin: 0%;
+}  
+  
 /* .column3 {margin-right: 0%;} */
 
 li{
@@ -56,10 +58,11 @@ li{
     padding: 0.5em 0;}
 
 #feature, .article {
-    height: 10em;
-    margin-bottom: 1em;
+    height: fit-content auto;
+    margin-bottom: 1%;
     background-color: rgba(63, 97, 171, 0.506);
     box-shadow: inset 20px 18px 20px 20px rgba(213, 22, 124, 0.599);
+    flex-wrap: nowrap;
     
 }
 
