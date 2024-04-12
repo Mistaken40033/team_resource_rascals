@@ -29,6 +29,8 @@ Use "Google Search" for what we've learned in class from HTML/CSS/JS/JQUERY
 
 - Editing our website ![alt text](image.png)
 
+- Adding Dark/Light toggle ![alt text](image-1.png)
+
 ## Resources
 
 - https://www.googleapis.com/customsearch/v1?key=AIzaSyAYffbKfb5DUxujhzHl7enrwiY5hQvMeE8&cx=b7cf49646661a440c&q=css
