@@ -12,7 +12,3 @@ function toggleDarkMode() {
 toggleSwitch.addEventListener('change', toggleDarkMode);
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 30e73c3f0e656d47d315aa827d12106d4c70796e
