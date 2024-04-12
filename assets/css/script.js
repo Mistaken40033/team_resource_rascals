@@ -1,28 +1,51 @@
-<<<<<<< HEAD
-const gitAPI = //github key here
-const googAPI = document.getElementById('gcse-searchbox')
+function searchGoogle(query) {
+  var apiKey = 'AIzaSyAYffbKfb5DUxujhzHl7enrwiY5hQvMeE8';
+  var cx = 'b7cf49646661a440c';
+  var url = 'https://www.googleapis.com/customsearch/v1?q=' + query + '&key=' + apiKey + '&cx=' + cx;
 
-function getApi() {
-    const googUrl = 'https://www.googleapis.com/customsearch/v1?key=AIzaSyAYffbKfb5DUxujhzHl7enrwiY5hQvMeE8&cx=b7cf49646661a440c&q=css';
-  
-    fetch(googUrl)
-      .then(function (response) {
-        return response.json();
+  fetch(url)
+      .then(response => {
+          if (!response.ok) {
+              throw new Error('Network response was not ok');
+          }
+          return response.json();
       })
-      .then(function (data) {
-        console.log(data);
-        for (let i = 0; i < 5; i++) {
-         //need to grab the data and append to the resource page. May need local storage. 
-        }
+      .then(data => {
+          displayResults(data.items);
+      })
+      .catch(error => {
+          console.error('Error:', error);
       });
-  }
-  googAPI.addEventListener('click', getApi);
-  
-=======
-const gitAPI = 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gi
-const googAPI = //google api key here
->>>>>>> 1ba7009e85d413af3fa7bd7f7b9b7d70f3be615e
+}
 
-const gitInfoContainer = document.getElementById('gitPlace')
-const googInfoContainer = document.getElementById('googPlace')
+function displayResults(results) {
+  var resultList = document.getElementById('searchResults');
+  resultList.innerHTML = ''; // Clear previous results
+
+  results.forEach(function(result) {
+      var title = result.title;
+      var link = result.link;
+
+      var listItem = document.createElement('li');
+      var linkElement = document.createElement('a');
+      linkElement.href = link;
+      linkElement.textContent = title;
+
+      listItem.appendChild(linkElement);
+      resultList.appendChild(listItem);
+  });
+}
+
+document.getElementById('searchButton').addEventListener('click', function() {
+  var query = document.getElementById('searchBox').value;
+  if (query.trim() !== '') {
+      searchGoogle(query);
+  }
+});
+
+  
+// const gitAPIKey = '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gi'
+
+// const gitInfoContainer = document.getElementById('gitPlace')
+// const googInfoContainer = document.getElementById('googPlace')
 
