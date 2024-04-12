@@ -53,11 +53,11 @@ li{
 #nav, #footer{
     background-color: rgba(132, 172, 233, 0.579);
     box-shadow: inset 25px 15px 15px rgba(248, 245, 245, 0.588);
-    border-radius: 80%;
+    border-radius: 40%;
     text-align: center;
     padding: 0.5em 0;}
 
-#feature, .article {
+#feature, .grid {
     height: fit-content auto;
     margin-bottom: 1%;
     background-color: rgba(63, 97, 171, 0.506);
@@ -126,3 +126,20 @@ li{
   background-position: top;
   background-repeat: repeat-x;
 }
+
+
+.scroll-container {
+  width: 100%;
+  overflow-x: scroll; /* Enable horizontal scrolling */
+}
+
+.scroll-content {
+  white-space: nowrap; /* Prevent content from wrapping */
+}
+
+/* Optional: Style for content items */
+.scroll-content > div {
+  display: inline-block;
+  width: 1000px; /* Adjust width of content items */
+}
+
