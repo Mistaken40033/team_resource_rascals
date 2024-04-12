@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const gitAPI = //github key here
 const googAPI = document.getElementById('gcse-searchbox')
 
@@ -18,10 +17,6 @@ function getApi() {
   }
   googAPI.addEventListener('click', getApi);
   
-=======
-const gitAPI = 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gi
-const googAPI = //google api key here
->>>>>>> 1ba7009e85d413af3fa7bd7f7b9b7d70f3be615e
 
 const gitInfoContainer = document.getElementById('gitPlace')
 const googInfoContainer = document.getElementById('googPlace')
