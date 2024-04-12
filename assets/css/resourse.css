@@ -11,7 +11,62 @@ body {
   cursor: default;
 }
 
-a{
-  color: #ffffff;
+.box{
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.79)
+  /* width: auto 0; */
+  /* height: auto 0; */
+  /* border: 2px solid rgb(0, 0, 0); Border */
+  /* padding: 20px; /* Padding */
+  /* margin: 20px; Margin */ 
+}
+
+
+#searchButton {
+  width: 100px; /* Adjust width as needed */
+  height: 20px; /* Adjust height as needed */
+  background-color: #d7bc5b; /* Button background color */
+  color: rgb(251, 250, 250); /* Button text color */
+  border: none; /* Remove default button border */
+  border-radius: 15px; /* Rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+#searchButton:hover {
+  background-color: #00b315; /* Darker background color on hover */
+}
+
+/* .boxHouse {
+  /* background-image: url(https://i.pinimg.com/originals/f1/be/c8/f1bec81e20d80cd36c82379af920a4e9.gif); */
+  /* background-size: 10%;
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 20px;
+  height: 20%;  */
+/* } */ 
+
+.image-button {
+  /* display: block;
+  padding: 10px 10px; */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  background-position: center;
+}
+
+/* .image-button:hover {
+  background-color: #99314847;
+  background-position: 0%;
+} */
+
+.image-button img {
+  width: 20%;
+  height: auto;
+}
+
+.image-button {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
