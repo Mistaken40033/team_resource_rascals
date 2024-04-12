@@ -1,14 +1,17 @@
 body {
-  color: aliceblue;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.566), rgba(46, 12, 85, 0.807)),
-    url("https://miro.medium.com/v2/resize:fit:1100/format:webp/1*e_Loq49BI4WmN7o9ItTADg.gif");
+  color: rgb(255, 255, 255);
+  background-size: cover;
+  background-repeat: repeat;
+  background-image: linear-gradient(rgba(3, 3, 3, 0.566), rgba(212, 31, 88, 0.506)),
+    url("https://i.pinimg.com/originals/d6/d9/38/d6d938615e4e714089e7cadbbc10742a.gif");
   background-position: center;
   background-attachment: fixed;
-  text-align-last: center;
+  text-align: end;
   padding: 10px;
   cursor: default;
 }
 
+a{
+  color: #ffffff;
+}
 
