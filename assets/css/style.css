@@ -57,7 +57,7 @@ li{
     text-align: center;
     padding: 0.5em 0;}
 
-#feature, .article {
+.grid {
     height: fit-content auto;
     margin-bottom: 1%;
     background-color: rgba(63, 97, 171, 0.506);
@@ -181,22 +181,8 @@ li{
     top: 0;
     left: 0;
   }
-}
 
-.blue {
-  background: #4040e7;
-  border: 5px solid rgba(0,0,0,.5);
-}
 
-.red {
-  background: #db3c3c;
-  border: 5px solid rgba(0,0,0,.5);
-}
-
-.green {
-  background: #3ddb3d;
-  border: 5px solid rgba(0,0,0,.5);
-}
 
 .tall {
   grid-column: span 1;
