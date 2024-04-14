@@ -158,6 +158,8 @@ li{
   display: block;
   width: 80%;
   max-width: 700px;
+  height: auto;
+  max-height: 400px ;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -165,11 +167,11 @@ li{
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 700px;
+  max-width: 500px;
   text-align: center;
   color: #ccc;
   padding: 10px 0;
-  height: 150px;
+  height: 40px;
 }
 
 /* Add Animation - Zoom in the Modal */
