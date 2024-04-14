@@ -190,7 +190,6 @@ li{
     background-color: rgba(63, 97, 171, 0.506);
     box-shadow: inset 20px 18px 20px 20px rgba(213, 22, 124, 0.599);
     flex-wrap: nowrap;
-    
 }
 
 /* Hide the checkbox */
@@ -252,21 +251,5 @@ li{
   /* background-size:cover; */
   background-position: top;
   background-repeat: repeat-x;
-}
-
-
-.scroll-container {
-  width: 100%;
-  overflow-x: scroll; /* Enable horizontal scrolling */
-}
-
-.scroll-content {
-  white-space: nowrap; /* Prevent content from wrapping */
-}
-
-/* Optional: Style for content items */
-.scroll-content > div {
-  display: inline-block;
-  width: 1000px; /* Adjust width of content items */
 }
 
