@@ -6,7 +6,7 @@ function searchGoogle(query) {
   fetch(url)
       .then(response => {
           if (!response.ok) {
-              throw new Error('Network response was not ok');
+              throw new Error('Ope try again');
           }
           return response.json();
       })
@@ -20,7 +20,7 @@ function searchGoogle(query) {
 
 function displayResults(results) {
   var resultList = document.getElementById('searchResults');
-  resultList.innerHTML = ''; // Clear previous results
+  resultList.innerHTML = '';
 
   results.forEach(function(result) {
       var title = result.title;
