@@ -1,109 +1,72 @@
 body {
-    color: aliceblue;
-    width: 90%;
-    margin:0 auto;
-    background-image: url(https://i.pinimg.com/originals/99/8e/05/998e055aba57c24138220937cc5166ab.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  background-size: cover;
+  background-repeat: repeat;
+  background-image: linear-gradient(rgba(3, 3, 3, 0.566), rgba(212, 31, 88, 0.506)),
+    url("https://i.pinimg.com/originals/d6/d9/38/d6d938615e4e714089e7cadbbc10742a.gif");
+  background-position: center;
+  background-attachment: fixed;
+  text-align: end;
+  padding: 10px;
+  cursor: default;
+}
+
+.box{
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.79)
+  /* width: auto 0; */
+  /* height: auto 0; */
+  /* border: 2px solid rgb(0, 0, 0); Border */
+  /* padding: 20px; /* Padding */
+  /* margin: 20px; Margin */ 
 }
 
 
-.scroll-container {
-    width: 100%;
-    overflow-x: scroll; /* Enable horizontal scrolling */
-  }
-  
-  .scroll-content {
-    white-space: nowrap; /* Prevent content from wrapping */
-  }
-  
-  /* Optional: Style for content items */
-  .scroll-content > div {
-    display: inline-block;
-    width: 1000px; /* Adjust width of content items */
-  }
-  
+#searchButton {
+  width: 100px; /* Adjust width as needed */
+  height: 20px; /* Adjust height as needed */
+  background-color: #d7bc5b; /* Button background color */
+  color: rgb(251, 250, 250); /* Button text color */
+  border: none; /* Remove default button border */
+  border-radius: 15px; /* Rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+}
 
-  .grid {
-    width: 900px;
-    max-width: 100%;
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-auto-rows: 1fr;
-    grid-auto-flow: row dense;
-    grid-gap: 10px;
-    counter-reset: boxes;
-  }
-  
-  .box {
-    position: relative;
-    color: rgba(255,255,255,.7);
-    font-size: 2rem;
-    font-family: sans-serif;
-    counter-increment: boxes;
-    
-    &::before {
-      content: "";
-      display: block;
-      width: 100%;
-      padding-top: 50%;
-    }
-   
-    &::after {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      content: counter(boxes);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      top: 0;
-      left: 0;
-    }
-  }
-  
-  .blue {
-    background: #4040e7;
-    border: 5px solid rgba(0,0,0,.5);
-  }
-  
-  .red {
-    background: #db3c3c;
-    border: 5px solid rgba(0,0,0,.5);
-  }
-  
-  .green {
-    background: #3ddb3d;
-    border: 5px solid rgba(0,0,0,.5);
-  }
-  
-  .tall {
-    grid-column: span 1;
-    grid-row: span 2;
-  }
-  
-  .wide {
-    grid-row: span 1;
-    grid-column: span 2;
-  }
-  
-  .square {
-    grid-row: span 1;
-    grid-column: span 1;
-  }
-  
-  .shuffleWrap {
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  @media(max-width: 500px) {
-    .grid {
-      grid-template-columns: 1fr;
-    }
-    .wide {
-      grid-column: span 1;
-    }
-  }
+#searchButton:hover {
+  background-color: #00b315; /* Darker background color on hover */
+}
+
+/* .boxHouse {
+  /* background-image: url(https://i.pinimg.com/originals/f1/be/c8/f1bec81e20d80cd36c82379af920a4e9.gif); */
+  /* background-size: 10%;
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 20px;
+  height: 20%;  */
+/* } */ 
+
+.image-button {
+  /* display: block;
+  padding: 10px 10px; */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  background-position: center;
+}
+
+/* .image-button:hover {
+  background-color: #99314847;
+  background-position: 0%;
+} */
+
+.image-button img {
+  width: 20%;
+  height: auto;
+}
+
+.image-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
