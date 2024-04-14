@@ -125,7 +125,30 @@ li{
   /* background-size:cover; */
   background-position: top;
   background-repeat: repeat-x;
+}body {
+    width: 90%;
+    margin:0 auto;
+    background-image: url(https://i.pinimg.com/originals/ae/78/df/ae78df1ec46fe622dd0d3de6907fbe74.gif);
+    background-color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+h1{
+    color: aliceblue;
+    font-size: xxx-large;
+    text-align: left;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+/* //<uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+
+.caveat, h1 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 
 /* Style the Image Used to Trigger the Modal */
 #myImg {
@@ -170,7 +193,42 @@ li{
   color: #ccc;
   padding: 10px 0;
   height: 150px;
+=======
+p{
+    font-family: serif;
+    text-align: center;
 }
+div{
+    color: rgb(255, 255, 255);
+}
+#content {
+    overflow: auto;
+}
+/* #feature{
+    margin: 10%;
+} */
+/* #nav, #footer {
+    margin: 1%;
+} */
+.column1, .column2, .column3 {
+    width: 10%;
+    float: left;
+    margin: 0%;
+}  
+  
+/* .column3 {margin-right: 0%;} */
+
+li{
+    display: inline;
+    padding: 0.5em;
+
+#nav, #footer{
+    background-color: rgba(132, 172, 233, 0.579);
+    box-shadow: inset 25px 15px 15px rgba(248, 245, 245, 0.588);
+    border-radius: 40%;
+    text-align: center;
+    padding: 0.5em 0;}
+
 
 /* Add Animation - Zoom in the Modal */
 .modal-content, #caption {
@@ -181,6 +239,74 @@ li{
 @keyframes zoom {
   from {transform:scale(0)}
   to {transform:scale(1)}
+#feature, .grid {
+    height: fit-content auto;
+    margin-bottom: 1%;
+    background-color: rgba(63, 97, 171, 0.506);
+    box-shadow: inset 20px 18px 20px 20px rgba(213, 22, 124, 0.599);
+    flex-wrap: nowrap;
+}
+
+/* Hide the checkbox */
+.toggle-switch input {
+    display: none;
+  }
+  
+  /* Style the slider */
+  .slider {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #191470;
+    /* background-image: url(https://file.loading.io/resources/icon/h45d9s.svg?v=1); */
+    border-radius: 34px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Style the slider when it's in the "on" state */
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgba(234, 234, 234, 0.882);
+    border-radius: 60%;
+    transition: transform 0.3s;
+  }
+  
+  /* Change background color when checkbox is checked */
+  .toggle-switch input:checked + .slider {
+    background-color: #ffffff;
+    background-position: right;
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.iconscout.com/icon/free/png-512/free-sun-bright-rays-sunny-weather-33960.png?f=webp&w=512);
+    transform: translateX 0.3s;
+  }
+  
+  /* Move the slider when checkbox is checked */
+  .toggle-switch input:checked + .slider:before {
+    transform: translateX(26px);
+    background-color: rgba(152, 148, 148, 0);
+  }
+/* Apply styles to the image
+.toggle-image {
+  background-image: url(https://i.pinimg.com/originals/f3/b4/74/f3b474fe0a9c81d10be32d8597f68584.gif);
+} */
+
+.dark-mode{
+  width: 90%;
+  margin:0 auto;
+  color: rgb(255, 255, 255);
+  /* background-color: rgb(0, 0, 0); */
+  background-image: url(https://i.pinimg.com/originals/f3/b4/74/f3b474fe0a9c81d10be32d8597f68584.gif);
+  /* background-size:cover; */
+  background-position: top;
+  background-repeat: repeat-x;
+
 }
 
 /* The Close Button */
