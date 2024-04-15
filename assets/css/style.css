@@ -181,6 +181,8 @@ h1{
   display: block;
   width: 80%;
   max-width: 700px;
+  height: auto;
+  max-height: 400px ;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -188,15 +190,11 @@ h1{
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 700px;
+  max-width: 500px;
   text-align: center;
   color: #ccc;
   padding: 10px 0;
-  height: 150px;
-=======
-p{
-    font-family: serif;
-    text-align: center;
+  height: 40px;
 }
 div{
     color: rgb(255, 255, 255);
