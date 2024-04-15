@@ -1,7 +1,7 @@
 function searchGoogle(query) {
-  var apiKey = 'AIzaSyAYffbKfb5DUxujhzHl7enrwiY5hQvMeE8';
-  var cx = 'b7cf49646661a440c';
-  var url = 'https://www.googleapis.com/customsearch/v1?q=' + query + '&key=' + apiKey + '&cx=' + cx;
+  const apiKey = 'AIzaSyAYffbKfb5DUxujhzHl7enrwiY5hQvMeE8';
+  const cx = 'b7cf49646661a440c';
+  let url = 'https://www.googleapis.com/customsearch/v1?q=' + query + '&key=' + apiKey + '&cx=' + cx;
 
   fetch(url)
       .then(response => {
@@ -19,15 +19,15 @@ function searchGoogle(query) {
 }
 
 function displayResults(results) {
-  var resultList = document.getElementById('searchResults');
+  let resultList = document.getElementById('searchResults');
   resultList.innerHTML = '';
 
   results.forEach(function(result) {
-      var title = result.title;
-      var link = result.link;
+      let title = result.title;
+      let link = result.link;
 
-      var listItem = document.createElement('li');
-      var linkElement = document.createElement('a');
+      let listItem = document.createElement('li');
+      let linkElement = document.createElement('a');
       linkElement.href = link;
       linkElement.textContent = title;
 
@@ -37,7 +37,7 @@ function displayResults(results) {
 }
 
 document.getElementById('searchButton').addEventListener('click', function() {
-  var query = document.getElementById('searchBox').value;
+  let query = document.getElementById('searchBox').value;
   if (query.trim() !== '') {
       searchGoogle(query);
   }
