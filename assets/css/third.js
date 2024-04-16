@@ -98,3 +98,70 @@ function renderGitInfoErica(data) {
 
 getGitInfoErica();
 
+
+
+
+const gitUrlYvonne = 'https:api.github.com/users/yvonneewa/repos';
+const gitInfoContainerYvonne = document.getElementById('gitPlaceYvonne');
+
+function getGitInfoYvonne() {
+    fetch(gitUrlYvonne)
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        console.log(data);
+        renderGitInfoYvonne(data);
+    })
+    .catch(function(error) {
+      console.error('Error fetching data:', error);
+    });
+}
+
+function renderGitInfoYvonne(data) {
+  gitInfoContainerYvonne.innerHTML = '';
+  data.forEach(function(repo) {
+    const repoLink = document.createElement('a');
+    repoLink.href = repo.html_url;
+    repoLink.textContent = repo.name;
+    gitInfoContainerYvonne.appendChild(repoLink);
+    gitInfoContainerYvonne.appendChild(document.createElement('br'));
+});
+}
+
+getGitInfoYvonne();
+
+
+
+
+
+
+const gitUrlEthan = 'https:api.github.com/users/KevSeng17/repos';
+const gitInfoContainerEthan = document.getElementById('gitPlaceEthan');
+
+function getGitInfoEthan() {
+    fetch(gitUrlEthan)
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        console.log(data);
+        renderGitInfoEthan(data);
+    })
+    .catch(function(error) {
+      console.error('Error fetching data:', error);
+    });
+}
+
+function renderGitInfoEthan(data) {
+  gitInfoContainerEthan.innerHTML = '';
+  data.forEach(function(repo) {
+    const repoLink = document.createElement('a');
+    repoLink.href = repo.html_url;
+    repoLink.textContent = repo.name;
+    gitInfoContainerEthan.appendChild(repoLink);
+    gitInfoContainerEthan.appendChild(document.createElement('br'));
+});
+}
+
+getGitInfoEthan();
