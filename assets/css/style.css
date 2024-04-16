@@ -235,3 +235,71 @@ img{
     text-align: center;
   }
 
+  #gitPlaceTeej {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px black;
+    background-color: deeppink;
+    margin: 15px;
+    position: relative;
+    left: -400px;
+    padding: 20px;
+    top: 70px;
+    text-decoration: white;
+  }
+  #gitPlaceAustin {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px black;
+    background-color:purple;
+    margin: 15px;
+    position: relative;
+    bottom: 180px;
+    padding: 20px;
+  }
+  #gitPlaceYvonne {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px black;
+    background-color:teal;
+    margin: 15px;
+    position: relative;
+    bottom: 400px;
+    left: 400px;
+    padding: 20px;
+  }
+  #gitPlaceErica {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px black;
+    background-color: darkred;
+    margin: 15px;
+    position: relative;
+    bottom: 370px;
+    left: 225px;
+    padding: 20px;
+  }
+  #gitPlaceEthan {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px black;
+    background-color:gray;
+    margin: 15px;
+    position: relative;
+    bottom: 150px;
+    right: 225px;
+    padding: 20px;
+  }
+a {
+  color: white;
+}
+h4 {
+ color: white; 
+}
+=======
+
