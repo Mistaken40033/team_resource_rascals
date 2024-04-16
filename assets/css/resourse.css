@@ -1,72 +1,82 @@
 body {
   color: rgb(255, 255, 255);
-  background-size: cover;
+  background-size: 40%;
   background-repeat: repeat;
-  background-image: linear-gradient(rgba(3, 3, 3, 0.566), rgba(212, 31, 88, 0.506)),
+  background-image: linear-gradient(rgba(15, 227, 206, 0.691), rgba(0, 0, 0, 0.849)),
     url("https://i.pinimg.com/originals/d6/d9/38/d6d938615e4e714089e7cadbbc10742a.gif");
   background-position: center;
   background-attachment: fixed;
-  text-align: end;
-  padding: 10px;
+  text-align: center;
+  /* padding: 50px; */
   cursor: default;
 }
 
 .box{
-  color: #000000;
-  background-color: rgba(255, 255, 255, 0.79)
-  /* width: auto 0; */
-  /* height: auto 0; */
-  /* border: 2px solid rgb(0, 0, 0); Border */
-  /* padding: 20px; /* Padding */
-  /* margin: 20px; Margin */ 
+  background-color: rgba(255, 255, 255, 0.74);
+  width: auto;
+  height: auto;
+  /* border: 2px solid rgb(0, 0, 0); */
+  font-size: xx-large;
+  /* padding: 20px; 
+  margin: 20px;  */
+}
+#searchContainer {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
+#searchBox {
+  width: 200px; 
+  height: 30px;
+  padding: 0 10px; 
+  border-radius: 20px;
+  border: none;
+}
 
 #searchButton {
+  left: 50%;
+  transform: translateX(-50%);
   width: 100px; /* Adjust width as needed */
-  height: 20px; /* Adjust height as needed */
-  background-color: #d7bc5b; /* Button background color */
-  color: rgb(251, 250, 250); /* Button text color */
+  height: 30px; /* Adjust height as needed */
+  background-color: #2424ee; /* Button background color */
+  color: rgb(255, 255, 255); /* Button text color */
   border: none; /* Remove default button border */
-  border-radius: 15px; /* Rounded corners */
-  cursor: pointer; /* Change cursor on hover */
+  border-radius: 20px; 
+  cursor: pointer; 
 }
 
 #searchButton:hover {
-  background-color: #00b315; /* Darker background color on hover */
+  background-color: #2edfec; /* Darker background color on hover */
+
 }
-
-/* .boxHouse {
-  /* background-image: url(https://i.pinimg.com/originals/f1/be/c8/f1bec81e20d80cd36c82379af920a4e9.gif); */
-  /* background-size: 10%;
-  background-repeat: no-repeat;
-  background-position: left;
-  width: 20px;
-  height: 20%;  */
-/* } */ 
-
-.image-button {
-  /* display: block;
-  padding: 10px 10px; */
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  background-position: center;
-}
-
-/* .image-button:hover {
-  background-color: #99314847;
-  background-position: 0%;
-} */
 
 .image-button img {
-  width: 20%;
-  height: auto;
+  width: 50%;
+  height: 0%;
+  background-color: #b4779000;
+  border-radius: 100%;
 }
 
-.image-button {
-  position: absolute;
-  top: 0;
-  left: 0;
+.image-button, span {
+    color: #d5d75b;
+    font-size: xx-large;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background-color: rgba(200, 124, 11, 0.193); */
+    padding: 3px 9px;
+    border-radius: 15px;
 }
-
+.searchResults {
+  position: fixed;
+  top: 20px; /* Adjust the value as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.74);
+  border: 2px solid rgb(0, 0, 0);
+  font-size: xx-large;
+  padding: 20px; 
+}
