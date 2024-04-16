@@ -14,7 +14,7 @@ body {
 #nav {
   background-color: rgba(34, 217, 217, 0.579);
   box-shadow: inset 25px 15px 15px rgba(255, 255, 255, 0.588);
-  border-radius: 5%;
+  /* border-radius: 5%; */
   text-align: center;
   padding: 0.5em 0;
   justify-content: start;
@@ -163,12 +163,8 @@ div{
 #content {
     overflow: auto;
 }
-/* #feature{
-    margin: 10%;
-} */
-/* #nav, #footer {
-    margin: 1%;
-} */
+
+
 .column1, .column2, .column3 {
     width: 10%;
     float: left;
@@ -182,12 +178,13 @@ li{
     padding: 0.5em;
 }
 
-#nav, #footer{
+/* #nav{
     background-color: rgba(132, 172, 233, 0.579);
     box-shadow: inset 25px 15px 15px rgba(248, 245, 245, 0.588);
     border-radius: 40%;
     text-align: center;
-    padding: 0.5em 0;}
+    padding: 0.5em 0;
+  } */
 
 
 /* Add Animation - Zoom in the Modal */
@@ -236,64 +233,66 @@ img{
   }
 
   #gitPlaceTeej {
-    width: 300px;
+    float: right;
+    width: 200px;
     border: 1px solid #ccc;
     border-radius: 12px;
     box-shadow: 0 4px 8px black;
     background-color: deeppink;
     margin: 15px;
     position: relative;
-    left: -400px;
-    padding: 20px;
-    top: 70px;
+    left: -244px;
+    padding: 17px;
+    top: 158px;
     text-decoration: white;
   }
   #gitPlaceAustin {
-    width: 300px;
+    width: 200px;
     border: 1px solid #ccc;
     border-radius: 12px;
     box-shadow: 0 4px 8px black;
     background-color:purple;
     margin: 15px;
     position: relative;
-    bottom: 180px;
-    padding: 20px;
+    bottom: 8px;
+    padding: 1px;
   }
   #gitPlaceYvonne {
-    width: 300px;
+    width: 172px;
     border: 1px solid #ccc;
     border-radius: 12px;
     box-shadow: 0 4px 8px black;
     background-color:teal;
     margin: 15px;
     position: relative;
-    bottom: 400px;
-    left: 400px;
-    padding: 20px;
+    bottom: 310px;
+    left: 493px;
+    padding: 15px;
   }
   #gitPlaceErica {
-    width: 300px;
+    width: 195px;
     border: 1px solid #ccc;
     border-radius: 12px;
     box-shadow: 0 4px 8px black;
     background-color: darkred;
     margin: 15px;
     position: relative;
-    bottom: 370px;
-    left: 225px;
-    padding: 20px;
+    bottom: 324px;
+    left: 493px;
+    padding: 4px;
   }
   #gitPlaceEthan {
-    width: 300px;
+    float: right;
+    width: 248px;
     border: 1px solid #ccc;
     border-radius: 12px;
     box-shadow: 0 4px 8px black;
     background-color:gray;
-    margin: 15px;
+    margin: 45px;
     position: relative;
     bottom: 150px;
-    right: 225px;
-    padding: 20px;
+    right: 440px;
+    padding: 2px;
   }
 a {
   color: white;
@@ -301,5 +300,4 @@ a {
 h4 {
  color: white; 
 }
-=======
 
