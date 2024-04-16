@@ -25,15 +25,11 @@ body {
   width: 90%;
   margin: 1px auto;
   margin-bottom: 5%;
-  background-color: rgba(8, 64, 178, 0.506);
-  box-shadow: inset 20px 18px 20px 20px rgba(196, 20, 209, 0.624);
+  background-color: rgba(165, 20, 61, 0.506);
+  box-shadow: inset 20px 18px 20px 20px rgba(172, 162, 121, 0.624);
   border-radius: 7%;
   text-align: center;
-  /* flex-wrap: nowrap; */
-  /* float: right; */
 }
-
-
 
 
 h1 {
@@ -50,13 +46,10 @@ p {
   text-align: center;
 }
 
-
 li {
   display: inline;
   padding: 0.5em;
 }
-
-
 
 
 /* Hide the checkbox */
@@ -98,7 +91,7 @@ li {
   transform: translateX 0.3s;
 }
 
-/* Move the slider when checkbox is checked */
+
 .toggle-switch input:checked + .slider:before {
   transform: translateX(26px);
   background-color: rgba(152, 148, 148, 0);
@@ -181,9 +174,12 @@ li {
 }
 
 img{
-  width: 50%;
-  
+  width: 80%;
 }
-#footer{
-  display: block;
-}
+
+#footer {
+    background-color: #68666642;
+    color: rgb(195, 237, 237);
+    padding: 20px;
+    text-align: center;
+  }
