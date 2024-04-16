@@ -7,7 +7,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   text-align: center;
-  /* padding: 50px; */
+  padding: 90px;
   cursor: default;
 }
 
@@ -17,8 +17,7 @@ body {
   height: auto;
   /* border: 2px solid rgb(0, 0, 0); */
   font-size: xx-large;
-  /* padding: 20px; 
-  margin: 20px;  */
+
 }
 #searchContainer {
   position: fixed;
@@ -36,7 +35,7 @@ body {
 }
 
 #searchButton {
-  left: 50%;
+  left: 80%;
   transform: translateX(-50%);
   width: 100px; /* Adjust width as needed */
   height: 30px; /* Adjust height as needed */
@@ -77,6 +76,6 @@ body {
   transform: translateX(-50%);
   background-color: rgba(255, 255, 255, 0.74);
   border: 2px solid rgb(0, 0, 0);
-  font-size: xx-large;
+  font-size: xxx-large;
   padding: 20px; 
 }

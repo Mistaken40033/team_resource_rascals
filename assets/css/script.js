@@ -22,6 +22,7 @@ function displayResults(results) {
   let resultList = document.getElementById('searchResults');
   resultList.innerHTML = '';
 
+
   results.forEach(function(result) {
       let title = result.title;
       let link = result.link;
@@ -33,7 +34,9 @@ function displayResults(results) {
 
       listItem.appendChild(linkElement);
       resultList.appendChild(listItem);
-  });
+  localStorage.setItem('results',JSON.stringify(results));
+    });
+   
 }
 
 document.getElementById('searchButton').addEventListener('click', function() {

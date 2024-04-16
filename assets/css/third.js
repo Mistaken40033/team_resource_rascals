@@ -17,6 +17,11 @@ function getGitInfoTeej() {
 
 function renderGitInfoTeej(data) {
   gitInfoContainerTeej.innerHTML = '';
+
+  const header = document.createElement('h4');
+  header.textContent = 'TJ';
+  gitInfoContainerTeej.appendChild(header);
+
   data.forEach(function(repo) {
     const repoLink = document.createElement('a');
     repoLink.href = repo.html_url;
@@ -54,6 +59,11 @@ function getGitInfoAustin() {
 
 function renderGitInfoAustin(data) {
   gitInfoContainerAustin.innerHTML = '';
+
+  const header = document.createElement('h4');
+  header.textContent = 'Austin';
+  gitInfoContainerAustin.appendChild(header);
+
   data.forEach(function(repo) {
     const repoLink = document.createElement('a');
     repoLink.href = repo.html_url;
@@ -87,6 +97,11 @@ function getGitInfoErica() {
 
 function renderGitInfoErica(data) {
   gitInfoContainerErica.innerHTML = '';
+
+  const header = document.createElement('h4');
+  header.textContent = 'Erica';
+  gitInfoContainerErica.appendChild(header);
+
   data.forEach(function(repo) {
     const repoLink = document.createElement('a');
     repoLink.href = repo.html_url;
@@ -120,6 +135,11 @@ function getGitInfoYvonne() {
 
 function renderGitInfoYvonne(data) {
   gitInfoContainerYvonne.innerHTML = '';
+
+  const header = document.createElement('h4');
+  header.textContent = 'Yvonne';
+  gitInfoContainerYvonne.appendChild(header);
+
   data.forEach(function(repo) {
     const repoLink = document.createElement('a');
     repoLink.href = repo.html_url;
@@ -155,6 +175,11 @@ function getGitInfoEthan() {
 
 function renderGitInfoEthan(data) {
   gitInfoContainerEthan.innerHTML = '';
+
+  const header = document.createElement('h4');
+  header.textContent = 'Ethan';
+  gitInfoContainerEthan.appendChild(header);
+
   data.forEach(function(repo) {
     const repoLink = document.createElement('a');
     repoLink.href = repo.html_url;
