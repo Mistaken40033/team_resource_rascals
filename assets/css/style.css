@@ -146,6 +146,57 @@ li {
 }
 
 
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 40px;
+}
+div{
+    color: rgb(255, 255, 255);
+}
+#content {
+    overflow: auto;
+}
+/* #feature{
+    margin: 10%;
+} */
+/* #nav, #footer {
+    margin: 1%;
+} */
+.column1, .column2, .column3 {
+    width: 10%;
+    float: left;
+    margin: 0%;
+}  
+  
+/* .column3 {margin-right: 0%;} */
+
+li{
+    display: inline;
+    padding: 0.5em;
+}
+
+#nav, #footer{
+    background-color: rgba(132, 172, 233, 0.579);
+    box-shadow: inset 25px 15px 15px rgba(248, 245, 245, 0.588);
+    border-radius: 40%;
+    text-align: center;
+    padding: 0.5em 0;}
+
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+
 @keyframes zoom {
   from {
       transform: scale(0);
