@@ -145,6 +145,10 @@ li {
   max-height: 400px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 01797e129b42f75bb349abcabbd2200121aa9ffc
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
   margin: auto;
@@ -194,6 +198,10 @@ li{
   animation-name: zoom;
   animation-duration: 0.6s;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 01797e129b42f75bb349abcabbd2200121aa9ffc
 
 @keyframes zoom {
   from {
