@@ -7,7 +7,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   text-align: center;
-  padding: 90px;
+  padding: 50px;
   cursor: default;
 }
 
@@ -35,13 +35,13 @@ body {
 }
 
 #searchButton {
-  left: 80%;
+  left: 70%;
   transform: translateX(-50%);
-  width: 100px; /* Adjust width as needed */
-  height: 30px; /* Adjust height as needed */
-  background-color: #2424ee; /* Button background color */
-  color: rgb(255, 255, 255); /* Button text color */
-  border: none; /* Remove default button border */
+  width: 100px;
+  height: 30px; 
+  background-color: #eec624; 
+  color: rgb(255, 255, 255); 
+  border: none; 
   border-radius: 20px; 
   cursor: pointer; 
 }
