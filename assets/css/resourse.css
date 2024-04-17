@@ -12,7 +12,7 @@ body {
 }
 
 .box{
-  background-color: rgba(255, 255, 255, 0.74);
+  background-color: rgba(208, 43, 43, 0.74);
   width: auto;
   height: auto;
   /* border: 2px solid rgb(0, 0, 0); */
@@ -74,8 +74,8 @@ body {
   top: 20px; /* Adjust the value as needed */
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(255, 255, 255, 0.74);
-  border: 2px solid rgb(0, 0, 0);
+  background-color: rgba(103, 200, 64, 0.74);
+  border: 2px solid rgb(201, 45, 45);
   font-size: xxx-large;
   padding: 20px; 
 }
