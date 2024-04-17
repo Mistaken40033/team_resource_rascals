@@ -7,7 +7,6 @@
 - Austin - JS, API
 - TJ - Data flow, API
 - Ethan - Helper everywhere, "Will solve it all"
-
 ```
 ## User Story
 
