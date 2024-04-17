@@ -1,4 +1,4 @@
-const gitUrlTeej = 'https:api.github.com/users/TJNeko/repos';
+const gitUrlTeej = 'https://api.github.com/users/TJNeko/repos';
 const gitInfoContainerTeej = document.getElementById('gitPlaceTeej');
 
 function getGitInfoTeej() {
@@ -40,7 +40,7 @@ getGitInfoTeej();
 
 
 
-const gitUrlAustin = 'https:api.github.com/users/austintyrome/repos';
+const gitUrlAustin = 'https://api.github.com/users/austintyrome/repos';
 const gitInfoContainerAustin = document.getElementById('gitPlaceAustin');
 
 function getGitInfoAustin() {
@@ -78,7 +78,7 @@ getGitInfoAustin();
 
 
 
-const gitUrlErica = 'https:api.github.com/users/Mistaken40033/repos';
+const gitUrlErica = 'https://api.github.com/users/Mistaken40033/repos';
 const gitInfoContainerErica = document.getElementById('gitPlaceErica');
 
 function getGitInfoErica() {
@@ -116,7 +116,7 @@ getGitInfoErica();
 
 
 
-const gitUrlYvonne = 'https:api.github.com/users/yvonneewa/repos';
+const gitUrlYvonne = 'https://api.github.com/users/yvonneewa/repos';
 const gitInfoContainerYvonne = document.getElementById('gitPlaceYvonne');
 
 function getGitInfoYvonne() {
@@ -156,7 +156,7 @@ getGitInfoYvonne();
 
 
 
-const gitUrlEthan = 'https:api.github.com/users/KevSeng17/repos';
+const gitUrlEthan = 'https://api.github.com/users/KevSeng17/repos';
 const gitInfoContainerEthan = document.getElementById('gitPlaceEthan');
 
 function getGitInfoEthan() {
