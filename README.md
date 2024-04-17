@@ -24,10 +24,10 @@ SO THAT I can conveniently access information
 Use "Google Search" for what we've learned in class from HTML/CSS/JS/JQUERY
 
 - Click on link will take us to resources to look at for (CSS, HTML, ETC.)
-- Multi Resourse links that are clickable
+- Multi Resource links that are clickable
 
 - Editing our website 
-![alt text](Image.png)
+![alt text](image.png)
 
 - Adding Dark/Light toggle 
 ![alt text](image-1.png)
@@ -46,4 +46,9 @@ Use "Google Search" for what we've learned in class from HTML/CSS/JS/JQUERY
 
 - https://www.123rf.com/photo_95150923_banner-programming-and-coding-background-vector-illustration-with-icons-and-keywords.html modal picture
 
+## Links
+
+- https://github.com/Mistaken40033/team_resource_rascals
+
+- https://mistaken40033.github.io/team_resource_rascals/
 
