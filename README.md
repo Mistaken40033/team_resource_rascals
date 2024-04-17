@@ -26,13 +26,17 @@ Use "Google Search" for what we've learned in class from HTML/CSS/JS/JQUERY
 - Click on link will take us to resources to look at for (CSS, HTML, ETC.)
 - Multi Resourse links that are clickable
 
-- Editing our website ![alt text](Image.png)
+- Editing our website 
+![alt text](Image.png)
 
-- Adding Dark/Light toggle ![alt text](image-1.png)
+- Adding Dark/Light toggle 
+![alt text](image-1.png)
 
-- Create cards for each individual's repos ![alt text](Repo-cards.png)
+- Create cards for each individual's repos 
+![alt text](Repo-cards.png)
 
-- Add another landing page for deeper searches on google ![alt text](Google-search.png)
+- Add another landing page for deeper searches on google 
+![alt text](Google-search.png)
 
 - Be able to pull up any repo from our Github accounts
 
